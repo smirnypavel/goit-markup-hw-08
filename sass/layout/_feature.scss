@@ -1,0 +1,33 @@
+.feature__list {
+  display: flex;
+  padding: 0px;
+  margin-top: 94px;
+  margin-bottom: 0px;
+  list-style: none;
+}
+
+.feature__board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: var(--secondary-backgraund-color);
+}
+.feature__logo {
+  width: 70px;
+  height: 70px;
+}
+.feature__item {
+  margin-top: 0px;
+  width: 270px;
+  text-align: left;
+}
+.feature__item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.feature__title {
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+}
