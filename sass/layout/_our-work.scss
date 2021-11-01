@@ -1,5 +1,8 @@
 .work {
   margin-top: 94px;
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
 }
 
 .work__list {
