@@ -4,8 +4,9 @@
 .clients-list {
   padding: 0px;
   margin: 0px;
-  // display: flex;
-  // flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   @media screen and (min-width: 480px) {
     display: flex;
     flex-wrap: wrap;
