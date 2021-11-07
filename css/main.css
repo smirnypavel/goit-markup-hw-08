@@ -401,29 +401,37 @@ body {
 .hero {
   background: #c4c4c4;
   background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero.mobile.jpg);
   background-position: center;
   background-size: cover;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-mobile.jpg);
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
     background: #c4c4c4;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero.mobile@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-mobile-2x.jpg);
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    width: 100%;
-    height: auto;
     background: #c4c4c4;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-backgraund/hero-tablet.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-tablet.jpg);
   }
 }
 
@@ -431,7 +439,38 @@ body {
   .hero {
     background: #c4c4c4;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-backgraund/hero-tablet-x2.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-tablet-2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    background: #c4c4c4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-desktop.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background: #c4c4c4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-desktop-2x.jpg);
   }
 }
 
