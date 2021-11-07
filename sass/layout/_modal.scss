@@ -74,6 +74,7 @@
 .check-text {
   font-size: 12px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
@@ -83,6 +84,9 @@
     height: 16px;
     background-repeat: no-repeat;
     background-image: url(../images/icon/check-border.svg);
+  }
+  @media screen and(min-width: 480px) {
+    flex-wrap: nowrap;
   }
   cursor: pointer;
   @media screen and(min-width: 1200px) {
@@ -99,6 +103,7 @@
   display: block;
   margin: auto;
   margin-top: 30px;
+  margin-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
