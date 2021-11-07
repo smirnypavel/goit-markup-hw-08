@@ -148,19 +148,55 @@
                     <ul class="work__list">
                         <li class="work__list-item">
                             <div class="work__list_top">
-                                <img src="./images/keyboard.jpg" alt="клавиатура" width="370">
+                                <picture>
+                                    <source media="(min-width: 1200px)" 
+                                srcset="
+                                    ./images/work/keyboard.jpg 1x, 
+                                    ./images/work/keyboard-2x.jpg 2x">
+                                <source media="(min-width: 768px)" srcset="
+                                    ./images/work/keyboard.jpg 1x, 
+                                    ./images/work/keyboard-2x.jpg 2x">
+                                <source media="(min-width: 480px)" srcset="
+                                    ./images/work/keyboard.jpg 1x, 
+                                    ./images/work/keyboard-2x.jpg 2x">
+                                    <img src="./images/keyboard.jpg" alt="клавиатура" width="370">
+                                </picture>
                                 <p class="work__list_top-text">Десктопные приложения</p>
                             </div>
                         </li>
                         <li class="work__list-item">
                             <div class="work__list_top">
-                            <img src="./images/phone.jpg" alt="клавиатура" width="370">
+                            <picture>
+                                <source media="(min-width: 1200px)" 
+                                srcset="
+                                    ./images/work/phone.jpg 1x, 
+                                    ./images/work/phone-2x.jpg 2x">
+                                <source media="(min-width: 768px)" srcset="
+                                    ./images/work/phone.jpg 1x, 
+                                    ./images/work/phone-2x.jpg 2x">
+                                <source media="(min-width: 480px)" srcset="
+                                    ./images/work/phone.jpg 1x, 
+                                    ./images/work/phone-2x.jpg 2x">
+                                <img src="./images/phone.jpg" alt="клавиатура" width="370">
+                            </picture>
                             <p class="work__list_top-text">Мобильные приложения</p>
                             </div>
                         </li>
                         <li class="work__list-item">
                             <div class="work__list_top">
-                            <img src="./images/tablet.jpg" alt="клавиатура" width="370">
+                            <picture>
+                                <source media="(min-width: 1200px)" 
+                                srcset="
+                                    ./images/work/tablet.jpg, 
+                                    ./images/work/tablet-2x.jpg 2x">
+                                <source media="(min-width: 768px)" srcset="
+                                    ./images/work/tablet.jpg, 
+                                    ./images/work/tablet-2x.jpg 2x 2x">
+                                <source media="(min-width: 480px)" srcset="
+                                    ./images/work/tablet.jpg, 
+                                    ./images/work/tablet-2x.jpg 2x 2x">
+                                <img src="./images/tablet.jpg" alt="клавиатура" width="370">
+                            </picture>
                             <p class="work__list_top-text">Дизайнерские решения</p>
                             </div>
                         </li>
@@ -173,7 +209,23 @@
                 <div class="team__box">
                     <h2 class="team__box-title font_title">Наш персонал</h2>
                     <ul class="team__list">
-                        <li class="team__card"><img src="./images/igor-demyanenko.jpg" alt="Игорь Демьяненко" width="270">
+
+                        <li class="team__card">
+                            <picture>
+                                <source media="(min-width: 1200px)" 
+                                srcset="
+                                    ./images/igor-demyanenko.jpg 1x, 
+                                    ./images/team/desktop/igor-demianenko-desktop-2x.jpg 2x">
+                                <source media="(min-width: 768px)" srcset="
+                                    ./images/team/tablet/igor-demianenko-tablet.jpg 1x, 
+                                    ./images/team/tablet/igor-demianenko-tablet-2x.jpg 2x">
+                                <source media="(min-width: 480px)" srcset="
+                                    ./images/team/mobile/igor-demianenko-mobile.jpg 1x, 
+                                    ./images/team/mobile/igor-demianenko-mobile-2x.jpg 2x">
+                                <img src="./images/igor-demyanenko.jpg" alt="Игорь Демьяненко" width="270">
+                            </picture>
+                            
+
                             <h3 class="team__card__title  font_title">Игорь Демьяненко</h3>
                             <p class="team__card__profession">Product Designer</p>
                             <ul class="team__social-list">
@@ -203,7 +255,19 @@
                                     </a></li>
                             </ul>
                         </li>
-                        <li class="team__card"><img src="./images/olga-repina.jpg" alt="Ольга Репина" width="270" height="260">
+                        <li class="team__card">
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="
+                                                                    ./images/team/desktop/olga-repina-desktop.jpg 1x, 
+                                                                    ./images/team/desktop/olga-repina-desktop-2x.jpg 2x">
+                                <source media="(min-width: 768px)" srcset="
+                                                                    ./images/team/tablet/olga-repina-tablet.jpg 1x, 
+                                                                    ./images/team/tablet/olga-repina-tablet-2x.jpg 2x">
+                                <source media="(min-width: 480px)" srcset="
+                                                                    ./images/team/mobile/olga-repina-mobile.jpg 1x, 
+                                                                    ./images/team/mobile/olga-repina-mobile-2x.jpg 2x">
+                                <img src="./images/olga-repina.jpg" alt="Ольга Репина" width="270" height="260">
+                            </picture>
                             <h3 class="team__card__title font_title">Ольга Репина</h3>
                             <p class="team__card__profession">Frontend Developer</p>
                             <ul class="team__social-list">
@@ -237,7 +301,19 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="team__card"><img src="./images/nikolaj-tarasov.jpg" alt="Николай Тарасов" width="270" height="260">
+                        <li class="team__card">
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="
+                                                                    ./images/team/desktop/nikolai-tarasov-desktop.jpg 1x, 
+                                                                    ./images/team/desktop/nikolai-tarasov-desktop-2x.jpg 2x">
+                                <source media="(min-width: 768px)" srcset="
+                                                                    ./images/team/tablet/nikolai-tarasov-tablet.jpg 1x, 
+                                                                    ./images/team/tablet/nikolai-tarasov-tablet-2x.jpg 2x">
+                                <source media="(min-width: 480px)" srcset="
+                                                                    ./images/team/mobile/nikolai-tarasov-mobile.jpg 1x, 
+                                                                    ./images/team/mobile/nikolai-tarasov-mobile-2x.jpg 2x">
+                                <img src="./images/nikolaj-tarasov.jpg" alt="Николай Тарасов" width="270" height="260">
+                            </picture>
                             <h3 class="team__card__title font_title">Николай Тарасов</h3>
                             <p class="team__card__profession">Marketing</p>
                             <ul class="team__social-list">
@@ -271,8 +347,19 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="team__card"><img src="./images/mihail-ermakov.jpg" alt="Михаил Ермаков" width="270"
-                                    height="260">
+                        <li class="team__card">
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="
+                                                                    ./images/team/desktop/mikhail-ermakov-desktop.jpg 1x, 
+                                                                    ./images/team/desktop/mikhail-ermakov-desktop-2x.jpg 2x">
+                                <source media="(min-width: 768px)" srcset="
+                                                                    ./images/team/tablet/mikhail-ermakov-tablet.jpg 1x, 
+                                                                    ./images/team/tablet/mikhail-ermakov-tablet-2x.jpg 2x">
+                                <source media="(min-width: 480px)" srcset="
+                                                                    ./images/team/mobile/mikhail-ermakov-mobile.jpg 1x, 
+                                                                    ./images/team/mobile/mikhail-ermakov-mobile-2x.jpg 2x">
+                                <img src="./images/mihail-ermakov.jpg" alt="Михаил Ермаков" width="270" height="260">
+                            </picture>
                             <h3 class="team__card__title font_title">Михаил Ермаков</h3>
                             <p class="team__card__profession">UI Designer</p>
                             <ul class="team__social-list">

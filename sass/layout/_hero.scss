@@ -5,12 +5,45 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/hero-backgraund.jpg);
+    url(../images/hero/hero.mobile.jpg);
   background-position: center;
   background-size: cover;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background: #c4c4c4;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/hero/hero.mobile@2x.jpg);
+  }
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    height: auto;
+    background: #c4c4c4;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/hero-backgraund/hero-tablet.jpg);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background: #c4c4c4;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/hero-backgraund/hero-tablet-x2.jpg);
+    }
+  }
 }
 .hero__box {
   display: flex;
