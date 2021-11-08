@@ -1,6 +1,12 @@
+.feature__box {
+  margin-top: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-top: 94px;
+  }
+}
 .feature__list {
   padding: 0px;
-  margin-top: 94px;
+
   margin-bottom: 0px;
   list-style: none;
   @media screen and (min-width: 480px) {

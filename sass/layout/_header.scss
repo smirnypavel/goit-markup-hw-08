@@ -3,8 +3,12 @@
 }
 
 .header__box {
+  height: 60px;
   display: flex;
   align-items: center;
+  @media screen and (min-width: 767px) {
+    height: auto;
+  }
 }
 /* header-nav */
 
