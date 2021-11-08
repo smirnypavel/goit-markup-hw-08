@@ -177,6 +177,7 @@ body {
 }
 
 .header__phone {
+  text-decoration: none;
   display: flex;
   align-items: center;
   color: var(--primery-text-color);
@@ -193,6 +194,7 @@ body {
 }
 
 .header__mail {
+  text-decoration: none;
   display: flex;
   align-items: center;
   color: var(--primery-text-color);
@@ -498,6 +500,12 @@ body {
   color: var(--white-color);
   text-transform: uppercase;
   text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 44px;
+  }
 }
 
 .button {

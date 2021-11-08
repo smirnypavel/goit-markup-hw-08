@@ -63,6 +63,7 @@
 }
 
 .header__phone {
+  text-decoration: none;
   display: flex;
   align-items: center;
   color: var(--primery-text-color);
@@ -79,6 +80,7 @@
 }
 
 .header__mail {
+  text-decoration: none;
   display: flex;
   align-items: center;
   color: var(--primery-text-color);
